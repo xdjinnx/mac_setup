@@ -17,6 +17,7 @@ brew install jump
 echo '\neval "$(jump shell zsh)"' >> ~/.bash_profile
 brew install lazygit
 echo 'alias lg="lazygit"' >> ~/.bash_profile
+brew install hub
 
 
 echo "Work apps"
@@ -26,7 +27,7 @@ brew install docker-compose
 brew cask install google-cloud-sdk
 
 echo "Install GoLang"
-brew install go
+brew install go@1.12
 brew link go@1.12 --force
 
 echo "configuring global pull.rebase true"
