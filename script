@@ -1,0 +1,35 @@
+
+echo "Install brew"
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+echo "Install Oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+echo "Install Intellij"
+brew install homebrew/cask/intellij-idea
+
+echo "Install nice apps"
+brew cask install spectacle
+brew cask install spotify
+
+echo "Install nice terminal application"
+brew install jump
+echo '\neval "$(jump shell zsh)"' >> ~/.bash_profile
+brew install lazygit
+echo 'alias lg="lazygit"' >> ~/.bash_profile
+
+
+echo "Work apps"
+brew cask install slack
+brew cask install docker
+brew install docker-compose
+brew cask install google-cloud-sdk
+
+echo "Install GoLang"
+brew install go
+brew link go@1.12 --force
+
+echo "configuring global pull.rebase true"
+git config --global pull.rebase true
+
+echo '\nsource ~/.bash_profile' >> ~/.zshrc
