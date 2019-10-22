@@ -19,12 +19,12 @@ brew install lazygit
 echo 'alias lg="lazygit"' >> ~/.bash_profile
 brew install hub
 
-
 echo "Work apps"
 brew cask install slack
 brew cask install docker
 brew install docker-compose
 brew cask install google-cloud-sdk
+brew cask install pritunl
 
 echo "Install GoLang"
 brew install go@1.12
