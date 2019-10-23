@@ -18,6 +18,7 @@ echo '\neval "$(jump shell zsh)"' >> ~/.bash_profile
 brew install lazygit
 echo 'alias lg="lazygit"' >> ~/.bash_profile
 brew install hub
+brew install kubernetes-helm
 
 echo "Work apps"
 brew cask install slack
@@ -25,6 +26,7 @@ brew cask install docker
 brew install docker-compose
 brew cask install google-cloud-sdk
 brew cask install pritunl
+brew cask install 1password
 
 echo "Install GoLang"
 brew install go@1.12
