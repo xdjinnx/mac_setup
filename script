@@ -19,6 +19,7 @@ brew install lazygit
 echo 'alias lg="lazygit"' >> ~/.bash_profile
 brew install hub
 brew install kubernetes-helm
+brew install jq
 
 echo "Work apps"
 brew cask install slack
