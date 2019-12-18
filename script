@@ -5,6 +5,9 @@ echo "Install brew"
 echo "Install Oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+echo "Install wget"
+brew install wget
+
 echo "Install Intellij"
 brew install homebrew/cask/intellij-idea
 
@@ -20,6 +23,7 @@ echo 'alias lg="lazygit"' >> ~/.bash_profile
 brew install hub
 brew install kubernetes-helm
 brew install jq
+wget -O ~/bin/cheat "https://github.com/cheat/cheat/releases/download/3.2.1/cheat-darwin-amd64"
 
 echo "Work apps"
 brew cask install slack
