@@ -20,6 +20,8 @@ brew install jump
 echo '\neval "$(jump shell zsh)"' >> ~/.bash_profile
 brew install lazygit
 echo 'alias lg="lazygit"' >> ~/.bash_profile
+brew install ranger
+echo 'alias ra="ranger"' >> ~/.bash_profile
 brew install hub
 brew install kubernetes-helm
 brew install jq
