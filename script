@@ -25,6 +25,7 @@ echo 'alias ra="ranger"' >> ~/.bash_profile
 brew install hub
 brew install kubernetes-helm
 brew install jq
+brew install glow
 wget -O ~/bin/cheat "https://github.com/cheat/cheat/releases/download/3.2.1/cheat-darwin-amd64"
 
 echo "Work apps"
